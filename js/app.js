@@ -25,6 +25,9 @@ $(document).ready(function() {
   */
   $('form').submit(function() {
     var schoolsToShow = schoolList.findCategory(getCategory(program), getCategory(education));
+    $('img[src*="img/aci - color.png"]').attr('src', 'img/aci.png');
+    $('img[src*="img/acm - color.png"]').attr('src', 'img/acm - fade copy 2.png');
+    $('img[src*="img/AFE color.png"]').attr('src', 'img/AFE - fade.png');
     schoolsToShow.forEach(function(element) {
       $('img[src*="' + element.schoolFadeImg + '"]').attr('src', element.schoolColorImg);
     });
