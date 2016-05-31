@@ -1,0 +1,37 @@
+{
+    "schools": [
+      {
+        "schoolName" : "aci",
+        "schoolColorImg" : "img/aci - color.png",
+        "schoolFadeImg" : "img/aci.png",
+        "categories" : [
+          {
+            "program" : "2",
+            "education" : "4"
+          }
+        ]
+      },
+      {
+        "schoolName" : "acm",
+        "schoolColorImg" : "img/acm - color.png",
+        "schoolFadeImg" : "img/acm - fade copy 2.png",
+        "categories" : [
+          {
+            "program" : "2",
+            "education" : "3"
+          }
+        ]
+      },
+      {
+        "schoolName" : "afe",
+        "schoolColorImg" : "img/AFE color.png",
+        "schoolFadeImg" : "img/AFE - fade.png",
+        "categories" : [
+          {
+            "program" : "1",
+            "education" : "3"
+          }
+        ]
+      }
+    ]
+}
