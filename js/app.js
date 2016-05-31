@@ -11,6 +11,7 @@ $(document).ready(function() {
     $('.program-list li a:contains("' + program + '")').css('background-color', '');
     program = $(this).text();
     $('.program-list li a:contains("' + program + '")').css('background-color', 'red');
+    $('.program').html(program + '<span class="caret"></span>');
   });
   /*
   * Function to unselect previous item in dropdown and select current item
@@ -19,6 +20,7 @@ $(document).ready(function() {
     $('.education-list li a:contains("' + education + '")').css('background-color', '');
     education = $(this).text();
     $('.education-list li a:contains("' + education + '")').css('background-color', 'red');
+    $('.education').html(education + '<span class="caret"></span>');
   });
   /*
   * Function to change images from faded to color
